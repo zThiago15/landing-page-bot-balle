@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.title-content, .subtitle{
+    font-family: 'Righteous', cursive;
+}
+
+
+
+
+.cabecalho {
+    display: flex; /**/
+    flex-direction: row;
+
+    align-items: center; 
+    justify-content: space-around; /* irá dar um espaço suave entre os elementos do flex*/
+    
+    padding: 24px
+}
+
+.logo {
+    height: 70px;
+}
+
+.navigation-bar {
+    display: flex;
+    gap: 30px
+
+}
+
+.nav-link {
+    font-family: 'Sarala', cursive;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* main */
+.content{
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.written-main-content {
+    display: flex;    
+    flex-direction: column;
+
+    gap: 32px;
+}
+
+.title-content {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color: #FFF2E7;
+    font-size: 64px;
+}
+
+.description-content {
+    font-family: 'Sarala', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+.add-me {
+    font-family: 'Sarala', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+
+    background-color: #ECD6C4;
+    padding: 10px;
+    border-radius: 20px;
+    border:none;
+
+
+    width: 185px;
+    height: 67px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.add-me:hover {
+    background-color: #ecd6c4e7;
+}
+
+.main-content-image {
+    height: 430px;
+}
+
+/*side-content*/
+.sub-content {
+    margin-top: 48px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.subtitle {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    margin-bottom: 16px;
+
+    font-family: 'Righteous', cursive;
+    font-weight: 400px;
+    font-size: 24px;
+    color: #FFF2E7;
+
+    
+}
+
+.functionalities-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.item-function {
+    font-family: 'Sarala', cursive;
+    font-weight: 300; /* já deixa a tag <strong> com 700 de bold*/
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+/*footer*/
+footer {
+    border-top: 0.4px solid #FFF2E7;
+    padding: 32px;  
+}
+
+.footer-img {
+    height: 48px;
+    display: block;
+    margin: 0 auto; /* centralizar um elemento*/
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+/*
+font-family: 'Righteous', cursive; // título
+font-family: 'Sarala', sans-serif; // texto
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+header {
+    display: flex; 
+    align-items: center;
+
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.logo {
+    height: 72px;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 40px;
+}
+
+.header-link {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF2E7
+}
+
+/* main-content */
+.main-content {
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.first-content {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center; /*elementos alinhados no centro*/ 
+    justify-content: space-around; /*dar espaço entre elementos*/
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content-title {
+    font-family: 'Righteous', cursive; 
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.content-description {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+.add-me {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+    border-radius: 20px;
+    padding: 20px;
+    width: 185px;
+
+    background-color: #ECD6C4; 
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content-image {
+    height: 430px;
+}
+
+.second-content {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.subtitle {
+    font-family: 'Righteous', cursive; 
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+
+    margin-top: 40px;
+    padding-top: 70px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.functionalities {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item-function {
+    font-family: 'Sarala', sans-serif; 
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+
+/*footer*/
+footer {
+    margin-top: 60px;   
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.footer-image {
+    padding: 30px;
+    height: 40px;
+    display: block;
+    margin: auto;
+}
